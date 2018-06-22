@@ -2,7 +2,7 @@
 
 import os
 
-def get_dir(dir_path):
+def get_dir_func(dir_path):
     response = os.listdir(dir_path)
     ret = []
     i = 0
@@ -19,4 +19,4 @@ def get_dir(dir_path):
     return ret
 
 if __name__ == '__main__':
-    print(get_dir("/"))
+    print(get_dir_func("/"))
