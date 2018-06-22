@@ -7,7 +7,7 @@ from pytfiles import __version__
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(__file__))
-setup(name='pyfiles',
+setup(name='pytfiles',
     version = __version__,
     description = 'Gestion files',
     author = 'Nicolas Boufidjeline',
