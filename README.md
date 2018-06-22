@@ -4,7 +4,7 @@
 
 * Install the package:
 ```
-pip3 install https://github.com/GnomeZworc/PytFiles/archive/0.3.zip
+pip3 install https://github.com/GnomeZworc/PytFiles/archive/0.4.zip
 ```
 * Use package:
 ```python
@@ -14,6 +14,7 @@ gett_deep(".")
 
 ## Function List
 
+* `remove_dir(path)` remove a directory
 * `get_dir(path)` send back a list of dict with:
   * A string for the file/dir name
   * A bool to know if the file is a directory
