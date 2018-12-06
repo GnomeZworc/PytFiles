@@ -1,4 +1,4 @@
-__version__ = "0.4"
+__version__ = "0.5"
 from .get_deep import get_deep_func
 from .get_dir import get_dir_func
 from .remove_dir import remove_dir_func
