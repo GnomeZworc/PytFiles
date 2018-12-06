@@ -9,7 +9,7 @@ pip3 install https://github.com/GnomeZworc/PytFiles/archive/0.5.zip
 * Use package:
 ```python
 from pytfiles import get_deep
-gett_deep(".")
+get_deep(".")
 ```
 
 ## Function List
