@@ -9,7 +9,6 @@ def get_deep_func(path):
     wia = get_dir_func(path)
     for elem in wia:
         if elem["is_dir"] == True:
-            print (elem["name"])
             elem["deep"] = get_deep_func(path + "/" + elem["name"])
     return wia
 
