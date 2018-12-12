@@ -14,6 +14,8 @@ get_deep(".")
 
 ## Function List
 
+* `make_dir(path)` create a directory
+* `mouve(new_path, old_path)` mouve a directory or a file
 * `remove_dir(path)` remove a directory
 * `get_dir(path)` send back a list of dict with:
   * A string for the file/dir name
