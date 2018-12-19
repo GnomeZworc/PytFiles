@@ -1,8 +1,12 @@
-__version__ = "0.5.2"
-from .get_deep import get_deep_func
-from .get_dir import get_dir_func
-from .remove_dir import remove_dir_func
-from .mouve import mouve_func
+__version__ = "0.6"
+from .function.get_deep import get_deep_func
+from .function.get_dir import get_dir_func
+from .function.remove_dir import remove_dir_func
+from .function.mouve import mouve_func
+from .function.make_dir import make_dir_func
+
+def make_dir(path):
+    make_dir_func(path)
 
 def mouve(new_path, old_path):
     mouve_func(new_path, old_path)
