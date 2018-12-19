@@ -4,7 +4,7 @@
 
 * Install the package:
 ```
-pip3 install https://github.com/GnomeZworc/PytFiles/archive/0.5.2.zip
+pip3 install https://github.com/GnomeZworc/PytFiles/archive/0.6.zip
 ```
 * Use package:
 ```python
